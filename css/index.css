@@ -65,7 +65,40 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* Index Page */
+/* Header */
+header nav{
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    align-items: baseline;
+}
 
+
+.logo{
+    width:15%;
+}
+
+.logo img{
+    max-width: 100%;
+}
+
+.links{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a{
+    color:black;
+    text-decoration:none;
+}
+
+.jumbo{
+    margin: 2.5% 0 10px 20%;
+}
+
+/* Top */
 .container {
     width: 800px;
     margin: 0 auto;
@@ -84,7 +117,7 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+/* Middle */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -104,14 +137,53 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.bOne{
+    background-color:teal;
+}
 
+.bTwo{
+    background-color: gold;
+}
+
+.bThree{
+    background-color: cadetblue;
+}
+
+.bFour{
+    background-color: coral;
+}
+
+.bFive{
+    background-color: crimson;
+}
+
+.bSix{
+    background-color: forestgreen;
+}
+
+.bSeven{
+    background-color: darkorchid;
+}
+
+.bEight{
+    background-color: hotpink;
+}
+
+.bNine{
+    background-color: indigo;
+}
+
+.bTen{
+    background-color: dodgerblue;
+}
+
+/* Bottom */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,13 +197,13 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
-footer {
+/* Footer */
+.index-footer {
     width: 100%;
     background: black;
 }
 
-footer nav {
+.indexed-footerN {
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -144,3 +216,76 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* ABOUT PAGE BEGINS */
+
+.about-page{
+    border-bottom: 1px dashed black;
+}
+
+.middleAbout{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 75%;
+    margin: 0 0 0 12%;
+}
+
+.strategy{
+    margin-top:3%;
+    display: flex;
+    flex-flow: column;
+	width:35%;
+    margin-left: 1%;
+    border-bottom: 1px dashed black;
+}
+
+.how{
+   display:flex;
+   flex-flow: column;
+    width:35%;
+    margin-top: 3%;
+	border-bottom: 1px dashed black;
+}
+
+
+.places{
+    display:flex;
+    flex-flow: column;
+    justify-content: space-around;
+    width:35%;
+    margin-top:5%;
+    border-bottom: 1px dashed black;
+}
+
+.collab{
+    display:flex;
+    flex-flow: column;
+    width:35%;
+    margin-top:5%;
+    border-bottom: 1px dashed black;
+}
+
+button{
+    width: 30%;
+}
+
+/* BOTTOM */
+.work-together{
+   margin: 5% 0;
+}
+.about-footer {
+    width: 61%;
+    background: black;
+    margin: 0 auto;
+    padding:
+}
+.about-footerN {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
