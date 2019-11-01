@@ -73,6 +73,7 @@ header nav{
     display:flex;
     justify-content:center;
     align-items: baseline;
+    
 }
 
 
@@ -273,12 +274,28 @@ footer nav a {
 .button{
     border: 2px solid black;
     border-radius: 10px;
-    text-decoration:none;
+    /* text-decoration:none; */
     width: 35%;
     text-align: center;
     padding: 3%;
     color: black;
 
+}
+.button:hover{
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes slide{
+    0%, 100%{
+        background-color:black;
+        color:white
+    }
+    50%{
+        background-color: red;
+    }
+}
 }
 
 
